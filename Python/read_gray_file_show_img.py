@@ -2,7 +2,7 @@ from PIL import Image
 import numpy as np
 
 if __name__ == "__main__":
-	file_name = "grayscale_value.txt"
+	file_name = "median.txt"
 	img_f = open(file_name)
 
 	tmp = img_f.readlines()
@@ -12,9 +12,4 @@ if __name__ == "__main__":
 	print(gray_scale_img.shape)
 	img = Image.fromarray(gray_scale_img.astype("uint8"), 'L')
 	img.show()
-
-
-
-
-
-
+	img.save("median.png")

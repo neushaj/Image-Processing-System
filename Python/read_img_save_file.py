@@ -2,9 +2,9 @@ import numpy as np
 from PIL import Image
 
 if __name__ == "__main__":
-	img = Image.open("baboon.png")
+	img = Image.open("Lenna.png")
 	img_np = np.array(img)
-	f_name = ["red_pixel.txt", "green_pixel.txt", "blue_pixel.txt"]
+	f_name = ["red_pixel1.txt", "green_pixel1.txt", "blue_pixel1.txt"]
 	files = []
 	for f_n in f_name:
 		files.append(open(f_n, "w"))
