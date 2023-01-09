@@ -1,0 +1,3 @@
+﻿  readImg.cpp
+D:\term8\TA\OO-TA\CA4\ConsoleApplication1\readImg.cpp(54,23): warning C4244: 'initializing': conversion from 'std::streamoff' to 'unsigned int', possible loss of data
+  ConsoleApplication1.vcxproj -> D:\term8\TA\OO-TA\CA4\ConsoleApplication1\Debug\ConsoleApplication1.exe
